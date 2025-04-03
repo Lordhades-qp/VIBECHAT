@@ -1,0 +1,17 @@
+{
+  "name": "vibechat",
+  "version": "1.0.0",
+  "description": "Plateforme de chat pour les Otaku.",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0",
+    "mongoose": "^5.10.0",
+    "cors": "^2.8.5",
+    "multer": "^1.4.2",
+    "axios": "^0.21.1"
+  }
+}
